@@ -1,6 +1,11 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+  <div class="overflow">
+    <NuxtPage />
   </div>
 </template>
+
+<style>
+  .overflow {
+    overflow:hidden;
+  }
+</style>
